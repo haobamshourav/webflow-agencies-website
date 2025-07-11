@@ -42,6 +42,11 @@ body {
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
+    transition: background-color 1 ease;
+}
+/* hover */
+.primary-btn:hover{
+    background-color: #706bf1;
 }
 
 /* hero section style */
