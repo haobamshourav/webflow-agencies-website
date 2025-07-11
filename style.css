@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #F5F8FF;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0 150px;
+}
+
+.logo {
+    font-family: "inter", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+/* primary style */
+.primary-color{
+    color: #252432;
+}
+.primary-txt-color{
+    color: #4E47FF;
+}
+
+.primary-btn {
+    font-family: "Raleway", sans-serif;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* hero section style */
+.hero {
+    height: 100vh;
+    background-image: url('./assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 116px;
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: 158px;
+}
+
+.hero-section h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+/* main sevtion live-preview style */
+.live-preview{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 116px;
+}
+.live-preview img{
+    border-radius: 48px;
+}
+.live-preview h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.live-preview p{
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+/* live-desbord */
+.main-container{
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1040px;
+    height: 306px;
+    margin: 0 auto;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+.main-container h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+}
+.main-frame{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 24px;
+}
+.main-frame h4{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "inter";
+}
+.frame p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "inter";
+    font-weight: 400;
+}
+/* review cards design */
+.main-cards h4{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.card{
+    width: 366px;
+    height: 243px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+}
+.star{
+    margin: 24px 0 24px 24px;
+}
+.card h5{    
+    margin-left: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: "inter";
+    color: #1E1E1E;
+}
+.card p{
+    margin-left: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #1E1E1E;
+    font-family: "raleway";
+}
+.review{
+    display: flex;
+    margin-left: 24px;
+    gap: 12px;
+}
+.review-name{
+    margin-bottom: 2px;
+    font-size: 16px;
+    color: #757575;
+    font-family: "inter";
+}
+.review img{
+    border-radius: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 137px 150px;
+    gap: 20px;
+}
